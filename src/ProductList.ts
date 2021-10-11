@@ -1,4 +1,4 @@
-const products = 
+const productList = 
 [
     {
       productId:1,
@@ -29,4 +29,4 @@ const products =
         img:""
       },
 ];
-export default products;
+export default productList;

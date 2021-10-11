@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Products from './Components/Products';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main>
         <div>
+          <Products></Products>
           <span>Main</span>
         </div>
       </main>
