@@ -1,0 +1,12 @@
+Each shop/tenant has its own products, product categories, payment methods
+delivery method etc.
+Imagin bazar/shop-name/
+is the link to a shop where all products can be listed  
+
+The user Basket can contain items from different shops, it will have a 
+delivery address where the items can be delivered. 
+
+You should be able to search based on shop name, shop category and anything 
+and everything , for Barber shop you can book appointment and 
+each time slot can be booked by multiple people. If one does not show up 
+the second one and third one can be in row.

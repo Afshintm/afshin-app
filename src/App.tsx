@@ -10,7 +10,7 @@ function App() {
         <span>Header</span>
         </div>
       </header>
-      <main>
+      <main className="App-main">
         <div>
           <Products></Products>
           <span>Main</span>
