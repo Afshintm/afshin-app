@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Products from './Components/Products';
+import Products from './Components/Products/Products';
+import MockedProductList from './MockedProductList';
 
-function App() {
+const App:React.FC=() => {
   return (
     <div className="App">
       <header className="App-header">
@@ -12,7 +13,7 @@ function App() {
       </header>
       <main className="App-main">
         <div>
-          <Products></Products>
+          <Products Products={MockedProductList}></Products>
           <span>Main</span>
         </div>
       </main>
